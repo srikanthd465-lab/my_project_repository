@@ -4,5 +4,5 @@ WITH
 select id,
 first_name,
 last_name
-from {{source('source_table_name','raw_customerdata')}})
+from {{source('datafeed_shared_schema','raw_customerdata')}})
 select * from tb1
